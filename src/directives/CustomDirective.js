@@ -13,7 +13,7 @@ const ImgLazyLoading = {
 
         el.appendChild(placeholderEl); 
 
-        // scroll 감시
+        // 감시
         el.observer = new IntersectionObserver(changes => {
             for (const change of changes) {
                 // element가 노출 되는것을 검사합니다
