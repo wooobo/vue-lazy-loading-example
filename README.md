@@ -1,4 +1,4 @@
-# vuetify-app
+# vue-lazy-loading
 
 ## Project setup
 ```
