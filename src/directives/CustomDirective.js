@@ -4,7 +4,7 @@ const ImgLazyLoading = {
     inserted(el, binding) {
         let options = {
             root: document.querySelector(binding.value.rootScrollEl), // scroll event를 감시할 element를 설정 합니다
-            rootMargin: "1000px 0px" // 1000px까지는 기본으로 감시완료 합니다
+            rootMargin: "1000px 0px" 
         };
 
         // 이미지 로드 되기전에 placeholder를 보여주기 위해 element를 생성합니다
